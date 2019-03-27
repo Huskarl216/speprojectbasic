@@ -1,0 +1,21 @@
+body {
+	background-color: 	pink;
+}
+
+#idheading{
+	text-align: center;
+}
+
+.classdatediv{
+	background-color: #e9ecef;
+	margin-left: 10%;
+	margin-right: 15%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+
+}
