@@ -17,5 +17,30 @@ body {
 	padding-left: 3%;
 
 	font-size: 150%;
+	cursor: pointer;
 
+}
+
+.classslotlist{
+	display: none;
+}
+
+.classslot{
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+.classslotRed{
+	background-color: #2F4F4F;
+	color: white;
 }
