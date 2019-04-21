@@ -2,10 +2,10 @@ $(document).ready(function () {
 
 	var dates=[{id:"1",date:"27/03/2019"},{id:"2",date:"28/03/2019"},{id:"3",date:"01/04/2019"}];
 
-	S1={dateid:"1",date:"27/03/2019",time:"10 to 11",num:"1"};
-	S2={dateid:"1",date:"27/03/2019",time:"11 to 12",num:"2"};
-	S3={dateid:"2",date:"28/03/2019",time:"10 to 11",num:"1"};
-	S4={dateid:"3",date:"01/04/2019",time:"10 to 11",num:"1"};
+	S1={slotid:"1",dateid:"1",date:"27/03/2019",time:"10 to 11",num:"1"};
+	S2={slotid:"2",dateid:"1",date:"27/03/2019",time:"11 to 12",num:"2"};
+	S3={slotid:"3",dateid:"2",date:"28/03/2019",time:"10 to 11",num:"1"};
+	S4={slotid:"4",dateid:"3",date:"01/04/2019",time:"10 to 11",num:"1"};
 
 	slots=[S1,S2,S3,S4];
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
 			var dateid=table[i].dateid;
 			var time=table[i].time;
 			//Later based on booking condition you will change class name
-			$("#idslotlist_"+dateid).append("<div class='classslot classslotRed' > "+time+" </div>");	
+			$("#idslotlist_"+dateid).append("<div class='classslot classslotRed ' > "+time+" </div>");	
 		}
 	}
 

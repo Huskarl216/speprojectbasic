@@ -1,0 +1,46 @@
+body {
+	background-color: #A4DDED;
+}
+
+
+#idheading{
+	text-align: center;
+}
+
+
+.classdatediv{
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 15%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+.classslotlist{
+}
+
+.classslot{
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+.classslotBooked{
+	
+}
