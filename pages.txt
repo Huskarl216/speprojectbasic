@@ -1,0 +1,11 @@
+Student login
+Counseleor selection
+Slot selection
+Student profile
+
+
+Counselor login
+Counselor slot adding
+counselor Timetable
+Student requests page
+Counselor profile
